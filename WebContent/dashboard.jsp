@@ -93,7 +93,7 @@
                 </div>
               </div>
             </div>
-            
+          
             
           </div>
           
@@ -106,7 +106,7 @@ var ctx = document.getElementById('myChart').getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
-
+    
     },
     options: {
         scales: {
@@ -119,6 +119,7 @@ var myChart = new Chart(ctx, {
     }
 });
 </script>
+
 
 
     
