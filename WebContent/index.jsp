@@ -17,13 +17,13 @@
                   
                 </div>
                 <div class="card-body col text-center">
-                  <form>
+                  <form action="AuthServelet" method="POST">
                    
                     <div class="row col text-center">
                       <div class="col-md-6 col text-center">
                         <div class="form-group">
-                          <label class="bmd-label-floating">Email</label>
-                          <input type="text" class="form-control">
+                          <label class="bmd-label-floating">NIC</label>
+                          <input type="text" id="userName" name="userName" class="form-control" required>
                         </div>
                       </div>
                       
@@ -32,7 +32,7 @@
                       <div class="col-md-6">
                         <div class="form-group">
                           <label class="bmd-label-floating">Password</label>
-                          <input type="text" class="form-control">
+                          <input type="password" id="password" name ="password" class="form-control" required>
                         </div>
                       </div>
                       
